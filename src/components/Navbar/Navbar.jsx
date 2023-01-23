@@ -4,7 +4,6 @@ import Categorias from './Categorias/Categorias'
 import Secciones from './Secciones/Secciones'
 
 
-
 export default function () {
   return (
     <>
@@ -22,7 +21,8 @@ export default function () {
         
             </div>
             </div>
-    <CartWidget cantCarrito={5}/>
+    <CartWidget cantCarrito={10}/>
+    
         </nav>
     </>
   )

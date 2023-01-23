@@ -1,10 +1,13 @@
 import React from 'react';
+import { FaShoppingCart} from 'react-icons/fa'
 
-const CartWidget = ({cantCarrito}) => {
+
+const CartWidget = (cantCarrito) => {
     return (
         <>
-            <button className='btn btn-dark'>CARRITO</button>
-            <p>{cantCarrito}</p>
+            <button className='btn btn-dark'>Carrito</button>
+            <p>{cantCarrito=5}</p>
+            <FaShoppingCart/>
         </>
     );
 }
