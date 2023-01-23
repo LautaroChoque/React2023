@@ -1,0 +1,14 @@
+.tittle{
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.navbar{
+    padding-left: 50px;
+}
+
+.navbar li{
+    padding-left: 30px;
+}

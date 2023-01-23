@@ -5,9 +5,8 @@ import { FaShoppingCart} from 'react-icons/fa'
 const CartWidget = (cantCarrito) => {
     return (
         <>
-            <button className='btn btn-dark'>Carrito</button>
             <p>{cantCarrito=5}</p>
-            <FaShoppingCart/>
+            <FaShoppingCart size={'50px'} color={'white'}/>
         </>
     );
 }
