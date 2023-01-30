@@ -1,9 +1,28 @@
-import React from 'react';
+import { useState, useEffect } from 'react';
+import { ItemList } from '../ItemList/ItemList'
 
-const ItemListContainer = ({bienvenida}) => {
+export const ItemListContainer = () => {
+
+    const [productos, setProductos] = useState([])
+    useEffect(() => {
+        fetch('./json/productos.json')
+        .then(response => response.json())
+        .then(products => {
+            const productsList = ItemList({products})
+            console.log(productsList)
+            setProductos(productsList)
+        })
+    }, [])
+
     return (
-        <h1 className='tittle'>{bienvenida}</h1>
-    );
+        <div>
+            {productos}
+        </div>
+        
+            
+        
+        
+    )
 }
 
-export default ItemListContainer;
+

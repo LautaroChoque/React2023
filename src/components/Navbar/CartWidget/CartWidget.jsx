@@ -2,10 +2,10 @@ import React from 'react';
 import { FaShoppingCart} from 'react-icons/fa'
 
 
-const CartWidget = (cantCarrito) => {
+const CartWidget = ({cantCarrito}) => {
     return (
         <>
-            <p>{cantCarrito=5}</p>
+            <p>{cantCarrito}</p>
             <FaShoppingCart size={'50px'} color={'white'}/>
         </>
     );
