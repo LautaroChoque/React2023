@@ -2,122 +2,103 @@
     {
         "id": 1,
         "idCategoria": 1,
-        "nombre": "Notebook",
-        "marca": "Lenovo",
+        "nombre": "Mate Imperial",
+        "marca": "Imperial",
         "modelo": "Y510P",
-        "precio": 60000,
+        "precio": 8000,
         "stock": 30,
-        "img": "notebook-lenovo.jpg"
+        "img": "imp-liso.png"
     },
     {
         "id": 2,
         "idCategoria": 2,
-        "nombre": "Celular",
-        "marca": "Xiomi",
+        "nombre": "Mate camionero",
+        "marca": "Camionero",
         "modelo": "Mi-9",
-        "precio": 35000,
+        "precio": 5000,
         "stock": 20,
-        "img": "xiaomi-mi-9.jpg"
+        "img": "imp.png"
     },
     {
         "id": 3,
         "idCategoria": 3,
-        "nombre": "Smart Tv",
-        "marca": "Novatech",
+        "nombre": "Mate Imperial con bolitas de alpaca",
+        "marca": "Acero",
         "modelo": "50D1U",
-        "precio": 57000,
+        "precio": 4000,
         "stock": 15,
-        "img": "smart-tv-novatech.jpg"
+        "img": "bolitas.png"
     },
     {
         "id": 4,
         "idCategoria": 4,
-        "nombre": "Camara ",
-        "marca": "iQual",
+        "nombre": "Mate Imperial Crocco",
+        "marca": "Imperial crocco",
         "modelo": "C40",
-        "precio": 8000,
+        "precio": 9000,
         "stock": 30,
-        "img": "camara-iqual.jpg"
+        "img": "crocco.png"
     },
     {
         "id": 5,
         "idCategoria": 4,
-        "nombre": "Mouse",
-        "marca": "Logitech",
+        "nombre": "Mate Imperial cincelado",
+        "marca": "Imperial cincelado",
         "modelo": "G502",
-        "precio": 1400,
+        "precio": 8000,
         "stock": 7,
-        "img": "mouse-logitech.jpg"
+        "img": "canasta.png"
     },
     {
         "id": 6,
         "idCategoria": 4,
-        "nombre": "Auriculares",
+        "nombre": "Mate de acero",
         "marca": "Motorola",
         "modelo": "Pulse",
         "precio": 4000,
         "stock": 20,
-        "img": "motorola-pulse.jpg"
+        "img": "mateacero.png"
     },
     {
         "id": 7,
         "idCategoria": 2,
         "nombre": "Celular",
-        "marca": "Apple",
+        "marca": "Bombillas pico de loro",
         "modelo": "Iphone X Silver",
-        "precio": 250000,
+        "precio": 2500,
         "stock": 10,
-        "img": "iphone-x.jpg"
+        "img": "bombi.png"
     },
     {
         "id": 8,
         "idCategoria": 3,
-        "nombre": "Apple TV",
+        "nombre": "Bombillon Uruguayo",
         "marca": "Apple ",
         "modelo": "32 Gb",
-        "precio": 45000,
+        "precio": 4500,
         "stock": 30,
-        "img": "apple-tv.jpg"
+        "img": "bombillon.png"
     },
     {
         "id": 9,
         "idCategoria": 4,
-        "nombre": "Parlante",
+        "nombre": "Yerba Canarias",
         "marca": "Kalley",
         "modelo": "SPK200",
-        "precio": 34000,
+        "precio": 1600,
         "stock": 21,
-        "img": "parlante-kalley.png"
+        "img": "canarias.png"
     },
     {
         "id": 10,
         "idCategoria": 1,
-        "nombre": "Mac Air",
+        "nombre": "Yerba Baldo",
         "marca": "Apple",
         "modelo": "M1 2020",
-        "precio": 13000,
+        "precio": 3000,
         "stock": 25,
-        "img": "mac-air.jpg"
-    },
-    {
-        "id": 11,
-        "idCategoria": 2,
-        "nombre": "Celular",
-        "marca": "Samsung",
-        "modelo": "S20",
-        "precio": 85000,
-        "stock": 30,
-        "img": "samsung-s20.jpg"
-    },
-    {
-        "id": 12,
-        "idCategoria": 1,
-        "nombre": "Notebook",
-        "marca": "HP",
-        "modelo": "Pavilion 15",
-        "precio": 120000,
-        "stock": 20,
-        "img": "hp-pavilion.jpg"
+        "img": "baldo.png"
     }
+   
 
 ]
