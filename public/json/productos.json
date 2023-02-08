@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "categoria": "mates", 
+        "Idcategoria": "mates", 
         "nombre": "Mate Imperial",
         "marca": "Imperial",
         "modelo": "Y510P",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "idCategoria": 2,
+        "Idcategoria": "mates",
         "nombre": "Mate camionero",
         "marca": "Camionero",
         "modelo": "Mi-9",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "idCategoria": 3,
+        "Idcategoria": "mates",
         "nombre": "Mate Imperial con bolitas de alpaca",
         "marca": "Acero",
         "modelo": "50D1U",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "idCategoria": 4,
+        "Idcategoria": "mates",
         "nombre": "Mate Imperial Crocco",
         "marca": "Imperial crocco",
         "modelo": "C40",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "idCategoria": 4,
+        "Idcategoria": "bombillas",
         "nombre": "Mate Imperial cincelado",
         "marca": "Imperial cincelado",
         "modelo": "G502",
@@ -51,7 +51,7 @@
     },
     {
         "id": 6,
-        "idCategoria": 4,
+        "Idcategoria": "termos",
         "nombre": "Mate de acero",
         "marca": "Motorola",
         "modelo": "Pulse",
@@ -61,7 +61,7 @@
     },
     {
         "id": 7,
-        "idCategoria": 2,
+        "Idcategoria": "bombillas",
         "nombre": "Celular",
         "marca": "Bombillas pico de loro",
         "modelo": "Iphone X Silver",
@@ -71,7 +71,7 @@
     },
     {
         "id": 8,
-        "idCategoria": 3,
+        "Idcategoria": "bombillas",
         "nombre": "Bombillon Uruguayo",
         "marca": "Apple ",
         "modelo": "32 Gb",
@@ -81,7 +81,7 @@
     },
     {
         "id": 9,
-        "idCategoria": 4,
+        "Idcategoria": "yerbas",
         "nombre": "Yerba Canarias",
         "marca": "Kalley",
         "modelo": "SPK200",
@@ -91,7 +91,7 @@
     },
     {
         "id": 10,
-        "idCategoria": 1,
+        "Idcategoria": "yerbas",
         "nombre": "Yerba Baldo",
         "marca": "Apple",
         "modelo": "M1 2020",

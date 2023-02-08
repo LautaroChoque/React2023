@@ -5,12 +5,12 @@ import { useParams } from 'react-router-dom';
 export const ItemListContainer = () => {
 
     const [productos, setProductos] = useState([])
-    const {idCategoria} = useParams()
+    const {categoria} = useParams()
     const getProductsByCategory = () => {
         fetch('../json/productos.json')
         .then(response => response.json())
         .then(items => {
-            const products = items.filter(prod =>  prod.idCategoria === idCategoria)
+            const products = items.filter(prod =>  prod.Idcategoria === categoria)
             // const productsList = ItemList({products})
             // console.log(productsList)
             setProductos(products)
@@ -26,13 +26,13 @@ export const ItemListContainer = () => {
     
 
     useEffect(() => {
-        if(idCategoria) {
-            getProductsByCategory(idCategoria)
+        if(categoria) {
+            getProductsByCategory(categoria)
             console.log("hola")
         } else{
             getProducts()
         }
-    }, [idCategoria] )
+    }, [categoria] )
 
     console.log(productos)
     return (
@@ -45,5 +45,3 @@ export const ItemListContainer = () => {
         
     )
 }
-
-
