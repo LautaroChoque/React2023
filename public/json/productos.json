@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "idCategoria": 1,
+        "categoria": "mates", 
         "nombre": "Mate Imperial",
         "marca": "Imperial",
         "modelo": "Y510P",
